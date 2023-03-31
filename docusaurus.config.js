@@ -5,12 +5,12 @@ const announcementBarContent = `<a href="/typescript-full-stack-technology-trpc"
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '愧怍的小站',
+  title: 'bysqh的小站',
   titleDelimiter: '-',
-  url: 'https://kuizuo.cn',
+  url: 'https://bysqh.netlify.app/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  organizationName: 'bysqh',
   projectName: 'blog',
   tagline: '记录所学知识，领略编程之美',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -23,7 +23,7 @@ const config = {
     metadata: [
       {
         name: 'keywords',
-        content: '愧怍',
+        content: 'bysqh',
       },
       {
         name: 'keywords',
@@ -40,9 +40,9 @@ const config = {
       },
     },
     navbar: {
-      title: '愧怍',
+      title: 'bysqh',
       logo: {
-        alt: '愧怍',
+        alt: 'bysqh',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
@@ -153,7 +153,7 @@ const config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/kuizuo',
+              href: 'https://github.com/bysqh',
             },
             {
               label: '掘金',
@@ -243,7 +243,7 @@ const config = {
       playgroundPosition: 'top',
     },
     socials: {
-      github: 'https://github.com/kuizuo',
+      github: 'https://github.com/bysqh',
       twitter: 'https://twitter.com/kuizuo',
       juejin: 'https://juejin.cn/user/1565318510545901',
       csdn: 'https://blog.csdn.net/kuizuo12',
@@ -257,7 +257,7 @@ const config = {
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: '愧怍的个人博客',
+        content: 'bysqh的个人博客',
       },
     },
   ],
@@ -301,7 +301,7 @@ const config = {
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
           `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
-        blogDescription: '愧怍的个人博客',
+        blogDescription: 'bysqh的个人博客',
         blogSidebarCount: 10,
         blogSidebarTitle: '最近更新',
         postsPerPage: 10,
@@ -310,7 +310,7 @@ const config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '愧怍',
+          title: 'bysqh',
           copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       },
